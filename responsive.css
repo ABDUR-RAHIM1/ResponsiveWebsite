@@ -1,0 +1,166 @@
+
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+.wrap{
+	width:100%;
+}
+.photoPart {
+    width: 39%;
+}
+.photoPart img {
+    width: 100%;
+	
+}	
+
+.textPart {
+    width: 40%;
+	
+}
+
+
+}
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width:767px) {
+.wrap {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    background: #f2f1eb;
+}
+.textPart {
+    width: 100%;
+    margin: 0 auto;
+
+}	
+.photoPart {
+	width:100%;
+    margin-right:0px;
+}
+.photoPart img{
+	width:98%;
+	margin-left: 1%
+}
+.logo img {
+    width: 86%;
+    height: auto;
+    padding: 4px 9px;
+    margin-left: 10px;
+    border-radius: 85px;
+}
+.logo {
+    width: 15%;
+}
+.src_br {
+    display:none;
+}
+.header{
+	border:none;
+}
+.whatsapp {
+	margin:0 auto;
+    width: 24%;
+}
+
+.img1 {
+    display: none;
+}
+.whatsapp button{
+	display:none;
+}
+.logo img {
+    display: none;
+}
+#email {
+    width: 90%
+}
+#password {
+    width: 90%;
+}
+.txtarea {
+    width: 90%;
+}
+.sbmt {
+    margin-top: 5px;
+}
+.menu ul li{
+	margin-bottom:5px;
+}
+.navBar{
+	border:none;
+}
+
+
+
+}
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+	
+	
+	
+	
+}
